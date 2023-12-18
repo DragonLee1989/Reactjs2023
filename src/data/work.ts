@@ -1,0 +1,4 @@
+export const works = [
+    { id: 1, titleJob: "JOB TITLE", company: "COMPANY NAME", years: "2018-2019", description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus qui rem architecto quaerat cum, illum laudantium nisi, praesentium obcaecati omnis fugiat ipsum quam aspernatur quos voluptates porro ratione at."},
+    { id: 2, titleJob: "BACH KHOA DA NANG", company: "COMPANY NAME", years: "2019-2023", description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus qui rem architecto quaerat cum, illum laudantium nisi, praesentium obcaecati omnis fugiat ipsum quam aspernatur quos voluptates porro ratione at." }
+];

@@ -23,9 +23,9 @@ export const RankStar = ({ number = 1 }: TRankStar) => {
     <div>
       {stars.map((star) => {
         if (star > number) {
-          return <span style={dotWhite}></span>;
+          return <span className="mr-1" style={dotWhite}></span>;
         } else {
-          return <span style={dotYellow}></span>;
+          return <span className="mr-1" style={dotYellow}></span>;
         }
       })}
     </div>
