@@ -13,7 +13,7 @@ const SingleEducation = ({
   years,
 }: TEducation) => {
   return (
-    <li className="flex w-[600px] mb-2">
+    <li className="flex w-full mb-2">
       <div className="w-[50%]">
         <p className="font-bold text-gray-400">{titleEducation}</p>
         <p>{degreeEducation}</p>

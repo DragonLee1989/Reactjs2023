@@ -8,16 +8,16 @@ import { Work } from "./components/Work";
 
 export default function App() {
   return (
-    <div className="container mx-auto w-[1000px] border-2 border-red-500">
-      <div className="cv-wrapper flex ">
+    <div className="container mx-auto w-[1000px]">
+      <div className="cv-wrapper flex">
         <div className="col-left bg-blue-500 w-[40%]">
           <Logo />
           <Contact />
           <Expertise />
           <Skill />
         </div>
-        <div className="col-right flex-1 bg-white">
-          <div className=" mx-10 mt-[70px]">
+        <div className="col-right flex-1 bg-gray-200">
+          <div className="mx-10 mt-[70px]">
             <p className="font-bold text-3xl text-blue-500">LE NHAT LONG</p>
             <p className="font-bold text-lg text-blue-500">WEB DEVELOPER</p>
             <p className="font-bold mt-[120px]">ABOUT ME</p>
